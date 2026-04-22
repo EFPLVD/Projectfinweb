@@ -1,0 +1,137 @@
+/* Styles globaux */
+/* rose vif #F472A0 */
+/*rose clair #FFADC8 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color : black;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    grid-template-rows: 1fr auto;
+    min-height: 100vh;
+}
+
+header { 
+    background-color: #F472A0;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+    min-height: 100vh;
+    grid-row: 1 / 3;
+    grid-column: 1;
+}
+
+.logo img {
+    height: 175px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0.5rem 0;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.burger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.burger span {
+    width: 25px;
+    height: 3px;
+    background: rgb(255, 255, 255);
+    margin: 3px 0;
+}
+
+main {
+    padding: 2rem;
+    background-color: #FFADC8;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+footer {
+    background-color: #FFADC8;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    grid-column: 2;
+    grid-row: 2;
+    margin-top: auto;
+}
+
+/* Styles spécifiques */
+.hero {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+.membres {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.membre {
+    border: 1px solid #F472A0;
+    padding: 0;
+    text-align: center;
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+.membre img {
+    width: 100%;
+    height: auto;
+}
+
+.news article {
+    margin-bottom: 2rem;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-top: 1rem;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+form button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
