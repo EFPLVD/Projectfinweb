@@ -1,0 +1,30 @@
+/* Media queries pour responsive */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+
+    .burger {
+        display: flex;
+    }
+
+    .membres {
+        justify-content: center;
+    }
+
+    .membre {
+        width: 100%;
+        max-width: 300px;
+    }
+}
