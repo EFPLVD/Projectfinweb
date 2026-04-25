@@ -2,7 +2,11 @@
 @media (max-width: 768px) {
     header {
         flex-direction: column;
+        width: 20%;
     }
+    .logo img{
+    width: auto;
+}
 
     nav ul {
         display: none;
