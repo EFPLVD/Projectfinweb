@@ -30,6 +30,18 @@ header {
 .logo img {
     height: 175px;
 }
+.resaux {
+    display: flex;
+    gap: 1rem;
+    margin-top: auto;
+    margin-bottom: 1rem;
+    width: 100%;
+    padding: 0;
+}
+.resaux img {
+    width: 75px;
+    
+}
 
 nav ul {
     list-style: none;
@@ -122,6 +134,12 @@ footer {
     margin-bottom: 2rem;
 }
 
+.img.actu {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+    height: 250px;
+}
 form {
     max-width: 600px;
     margin: 0 auto;
