@@ -35,11 +35,11 @@ header {
     gap: 1rem;
     margin-top: auto;
     margin-bottom: 1rem;
-    width: 100%;
+    width: 120px;
     padding: 0;
 }
 .resaux img {
-    width: 75px;
+    width: 50px;
     
 }
 
@@ -123,7 +123,6 @@ footer {
     flex-shrink: 0;
 }
 .membre-info {
-    border : 1px solid #F472A0;
     padding: 2rem;
     flex: 1;
     width: 50%;
@@ -134,7 +133,7 @@ footer {
     margin-bottom: 2rem;
 }
 
-.img.actu {
+.img .actu {
     display: flex;
     justify-content: flex-start;
     margin-bottom: 1rem;
