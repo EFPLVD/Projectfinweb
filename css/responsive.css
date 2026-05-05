@@ -30,6 +30,10 @@ main {
     .burger {
         display: flex;
     }
+    
+    .video {
+    height: auto;
+}
 
     .membres {
         justify-content: center;
@@ -73,13 +77,17 @@ main {
         display: flex;
     }
 
+    .video {
+    height: auto;
+}
+
     .membres {
         justify-content: center;
+        width: 100%;
     }
 
     .membre {
         width: 100%;
-        max-width: 300px;
     }
     .img.actu {
         display: flex;
