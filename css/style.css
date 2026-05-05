@@ -1,8 +1,9 @@
 /* Styles globaux */
 /* rose vif #F472A0 */
 /*rose clair #FFADC8 */
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -10,6 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    font-size: 20px;
 }
 
 header { 
@@ -58,6 +60,11 @@ nav ul li {
 nav ul li a {
     color: rgb(255, 255, 255);
     text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+nav ul li a:hover {
+    color: #333;
 }
 
 .burger {
@@ -81,6 +88,8 @@ main {
 }
 
 footer {
+    display: flex;
+    justify-content: flex-end;
     background-color: #FFADC8;
     color: white;
     text-align: center;
@@ -96,9 +105,8 @@ footer {
 }
 .video {
     display: flex;
-    justify-content: center;   
+    justify-content: center;
 }
-
 
 .membres {
     display: flex;
@@ -157,6 +165,52 @@ form input, form textarea {
     width: 100%;
     padding: 0.5rem;
     margin-top: 0.5rem;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    max-width: 75%;
+    margin: 40px auto;
+    padding: 30px 40px;
+
+    background: linear-gradient(135deg, #ff4d8d, #a855f7);
+    color: white;
+    border-radius: 20px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.intro h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.intro p {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #cbd5e1;
+}
+
+.btn-equipe {
+    align-self: flex-end;
+    margin-top: 20px;
+    padding: 12px 28px;
+
+    background: linear-gradient(135deg, #ff4d8d, #a855f7);
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 20px rgba(255, 77, 141, 0.3);
+}
+
+.btn-equipe:hover {
+    background: linear-gradient(135deg, #ff2f7a, #7c3aed);
+    box-shadow: 0 12px 25px rgba(255, 77, 141, 0.45);
+    transform: translateY(-3px); scale(1.03);
 }
 
 form button {
