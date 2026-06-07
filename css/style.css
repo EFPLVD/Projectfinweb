@@ -40,7 +40,7 @@ header {
     width: 120px;
     padding: 0;
 }
-.resaux img {
+.reseaux img {
     width: 50px;
     
 }
@@ -93,8 +93,8 @@ footer {
     background-color: #FFADC8;
     color: white;
     text-align: center;
-    padding: 1rem;
-    margin-left: 150px;
+    padding: 0rem;
+    margin-left: 120px;
     margin-top: auto;
 }
 
@@ -145,7 +145,7 @@ footer {
     margin-bottom: 2rem;
 }
 
-.img .actu {
+.imgactu {
     display: flex;
     justify-content: flex-start;
     margin-bottom: 1rem;
